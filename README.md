@@ -28,7 +28,7 @@ Designing and constructing the AeroData Tracker, an advanced glider made of styr
 
 
 ### What might the final design look like?
-Our final solution is most likely going to be a glider purchased online **LINK**. We will take the glider and attach a motor onto the glider in order for the glider to fly longer. In order to record the flight data of the motor we will hollow out the cockpit of the glider in order to have room to fit the pico and the sensors. The motor we are using is a small drone motor that we will attach to the top fin of the plane. 
+Our final solution is most likely going to be a glider purchased online **LINK**. We will take the glider and attach a motor onto the glider in order for the glider to fly longer. In order to record the flight data of the motor we will hollow out the cockpit of the glider in order to have room to fit the pico and the sensors. The motor we are using is a small drone motor that we will attach to the top fin of the plane. We are going to replace the foam cockpit cover with a 3D printed one so we can pop it on and off easily. We will also include an easily accsesible switch so the glider motor is not always running. We will also include a place where you can plug the glider into a computer to access the flight data.
 
 &nbsp;
 
