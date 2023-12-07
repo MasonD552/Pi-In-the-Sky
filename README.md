@@ -13,31 +13,34 @@ Mason Divers Jinho Park
 
 
 ### Problem 
-
+Designing and constructing the AeroData Tracker, an advanced glider made of styrofoam, equipped with sensors and a motor to maintain speed, presents a multifaceted challenge. The goal extends beyond achieving a successful flight and data capture; it also is demonstrating precise control over the glider's smooth flight.
 
 ### Sketches, Drawings, Diagrams, etc.
 Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
 
 
 ### Iterations/Solutions
+1. Attach a small, lightweight motor to help keep the glider in the air longer
+2. Make the glider remote-controlled, adding fins and a more powerful motor.
+3. Use a combination of sensors and a recording device for comprehensive data capture.
+
 
 
 ### What might the final design look like?
-
+Our final solution is most likely going to be a glider purchased online **LINK**. We will take the glider and attach a motor onto the glider in order for the glider to fly longer. In order to record the flight data of the motor we will hollow out the cockpit of the glider in order to have room to fit the pico and the sensors. The motor we are using is a small drone motor that we will attach to the top fin of the plane. 
 
 &nbsp;
 
-## Onshape_Assignment_Template
+## Onshape
 
-### Assignment Description
+### Description
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
-### Part Link 
+### [Onshape Link]()
 
-[Create a link to your Onshape document](https://cvilleschools.onshape.com/documents/003e413cee57f7ccccaa15c2/w/ea71050bb283bf3bf088c96c/e/c85ae532263d3b551e1795d0?renderMode=0&uiState=62d9b9d7883c4f335ec42021). Don't forget to turn on link sharing in your Onshape document so that others can see it. 
 
-### Part Image
+### Part Images
 
 Take a nice screenshot of your Onshape document. 
 
@@ -47,4 +50,5 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
+## Python
 
