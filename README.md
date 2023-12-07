@@ -1,16 +1,14 @@
-# Engineering_4_Notebook
-
+# Pi in the Sky
 &nbsp;
 
 ## Table of Contents
-* [Raspberry_Pi_Assignment_Template](#raspberry_pi_assignment_template)
-* [Onshape_Assignment_Template](#onshape_assignment_template)
-
+* [Planning](#Planning)
+  
 &nbsp;
 
-## Raspberry_Pi_Assignment_Template
+## Planning
 
-### Assignment Description
+### [Link to the full planning document](https://docs.google.com/document/d/1NXeKnzZdSg2TqsSXZj62jXSP2QAsmZ6uVfKxvh8M7RQ/edit?usp=sharing)
 
 Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
 
