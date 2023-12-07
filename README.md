@@ -16,7 +16,8 @@ Mason Divers Jinho Park
 Designing and constructing the AeroData Tracker, an advanced glider made of styrofoam, equipped with sensors and a motor to maintain speed, presents a multifaceted challenge. The goal extends beyond achieving a successful flight and data capture; it also is demonstrating precise control over the glider's smooth flight.
 
 ### Sketches, Drawings, Diagrams, etc.
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Exaclidrawingscketch](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Excali%20draw%20project%20sketch%20of%20glider.png)
+![Video of motor test](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/ezgif-1-49ec937a0d.gif)
 
 
 ### Iterations/Solutions
