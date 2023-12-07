@@ -1,5 +1,6 @@
 # Pi in the Sky
 &nbsp;
+Mason Divers Jinho Park
 
 ## Table of Contents
 * [Planning](#Planning)
