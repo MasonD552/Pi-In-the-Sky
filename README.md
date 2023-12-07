@@ -1,4 +1,5 @@
 # Pi in the Sky
+
 &nbsp;
 Mason Divers Jinho Park
 
@@ -18,7 +19,7 @@ Designing and constructing the AeroData Tracker, an advanced glider made of styr
 ### Sketches, Drawings, Diagrams, etc.
 ![Exaclidrawingscketch](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Excali%20draw%20project%20sketch%20of%20glider.png)
 ![Video of motor test](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/ezgif-1-49ec937a0d.gif)
-
+![Youtube image of the glider](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Youtubevideo%20image.png)
 
 ### Iterations/Solutions
 1. Attach a small, lightweight motor to help keep the glider in the air longer
