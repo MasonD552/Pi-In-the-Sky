@@ -23,6 +23,7 @@ Designing and constructing the AeroData Tracker, an advanced glider made of styr
 
 ### Sketches, Drawings, Diagrams, etc.
 ![Exaclidrawingscketch](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Excali%20draw%20project%20sketch%20of%20glider.png)
+![IMG_20231208_133631](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/7e3a5ef9-3576-4bed-8e3e-be1737a3d171)
 ![Video of motor test](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/ezgif-1-49ec937a0d.gif)
 ![Youtube image of the glider](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Youtubevideo%20image.png)
 
