@@ -1,5 +1,5 @@
 # Pi in the Sky
-
+![Youtubevideogif of gliderflying away](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/ezgif.com-optimize.gif)
 &nbsp;
 Mason Divers Jinho Park
 
