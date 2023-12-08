@@ -5,7 +5,6 @@
 
 Mason Divers Jinho Park
 
-&nbsp;
 
 ## Table of Contents
 * [Planning](#Planning)
