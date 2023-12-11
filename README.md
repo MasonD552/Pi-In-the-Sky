@@ -39,6 +39,8 @@ Our final solution is most likely going to be a glider purchased online **LINK**
 
 &nbsp;
 
+## [Weekly Milestone Document](https://docs.google.com/document/d/18BsiWJBjAEjfBCMQsnZhUZLcynrcRc9x9TwaMXnt_gY/edit?usp=sharing)
+
 ## Onshape
 
 ### Description
