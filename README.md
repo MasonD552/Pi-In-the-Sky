@@ -50,6 +50,7 @@ Assembly and Sketches of where the glider is being constructed and enhanced.
 ### [Onshape Link](https://cvilleschools.onshape.com/documents/f701dde28e44a5d64f88d513/w/c3d1b7aabe3bebd2015edd37/e/548be30dfa79183bc255445f?renderMode=0&uiState=65736315da53c53d448474a5)
 
 ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/64809be4-3b21-4f54-858c-aa7559ae2269)
+
 [Link to Glider GrabCad](https://grabcad.com/library/multiplex-fox-glider-plane-1)
 ***Thanks to GrabCad for the model glider that we are able to help make our design for the glider.***
 ### Part Images
