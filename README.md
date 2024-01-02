@@ -55,6 +55,8 @@ Assembly and Sketches of where the glider is being constructed and enhanced.
 ***Thanks to GrabCad for the model glider that we are able to help make our design for the glider.***
 ### Part Images
 
+![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/f7c037cf-3e73-4b46-acec-7166ce817961)
+
 Take a nice screenshot of your Onshape document. 
 
 ### Reflection
