@@ -65,7 +65,13 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Materials 
+## Bill of Materials
+- 2 foam planes (1 prototype)
+- Pico
+- Altimeter
+- micro motor + propellar
+- MPU 6050
+- 
 
 ## Python
 
