@@ -69,9 +69,10 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 - 2 foam planes (1 prototype)
 - Pico
 - Altimeter
-- micro motor + propellar
+- micro motor + propeller
 - MPU 6050
-- 
+- battery
+- 3d printing 
 
 ## Python
 
