@@ -32,6 +32,8 @@ Designing and constructing the AeroData Tracker, an advanced glider made of styr
 2. Make the glider remote-controlled, adding fins and a more powerful motor.
 3. Use a combination of sensors and a recording device for comprehensive data capture.
 
+## Risk Mitigation
+When talking about risk we first have to talk about potential dangers. The propeller is the main safety hazard because it spins so fast, to protect ourselves we are going to wear gloves as well as safety glasses. The other problem is the plane coming back and hitting someone in the head (it happened to mason) to protect us from this we will also wear safety glasses because the main risk is the propeller and we might also wear a hat or helmet. 
 
 
 ### What might the final design look like?
