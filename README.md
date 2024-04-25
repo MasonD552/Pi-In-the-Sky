@@ -64,8 +64,10 @@ Assembly and Sketches of where the glider is being constructed and enhanced.
 Take a nice screenshot of your Onshape document. 
 
 ### Tweaks 
-A design change that we made early on was the propeller guard. It was very flimsy and broke easily, so I put toothpicks up as supports which helped the sturdiness a little. It was still unstable so I ended up printing another part one that would be a full circle and attach to the bottom for stability. 
-BEFORE                                                                                                                       AFTER 
+A design change that we made early on was the propeller guard. It was very flimsy and broke easily, so I put toothpicks up as supports which helped the sturdiness a little. It was still unstable so I ended up printing another part one that would be a full circle and attach to the bottom for stability.
+
+
+
 ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/3451002f-1d3e-43cb-82c7-c140e1837556)                 ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/1d8b665f-07a1-4346-b59d-5a14b3e0b1f9)
 
 
