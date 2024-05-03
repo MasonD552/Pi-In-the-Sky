@@ -47,8 +47,7 @@ Our final solution is most likely going to be a glider purchased online **LINK**
 
 ![IMG_2948-ezgif com-video-to-gif-converter](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/f8ebccad-ba2f-472b-8973-e9c3bd4d6cf7)
 
-![ezgif-1-e7715e08b8](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/d313a39d-35ef-4970-8019-db523b7a2fe4)
-
+![IMG_2951-ezgif com-cut](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/22587284-9358-4d3c-83fc-9d9515b92a9f)
 
 ## Onshape
 
