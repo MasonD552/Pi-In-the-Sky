@@ -95,6 +95,8 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 ## Wiring
 
 ![WiringDiagramPiSky](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Untitled%20Sketch%202_bb.png)
-
+Pt 1. 
+![WiringDiagramPiSkypt2](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Untitled%20Sketch%202_bb.png)
+Pt 2. We changed the wiring to account for the weight of the pane making it lighter. We removed the MPU 6050. As well as changing the wiring for the Mosfet. 
 
 ## Graph
