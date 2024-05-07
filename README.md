@@ -37,7 +37,7 @@ When talking about risk we first have to talk about potential dangers. The prope
 ![COde blocks](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/WIN_20240125_14_05_09_Pro.jpg)
 
 ### What might the final design look like?
-Our final solution is most likely going to be a glider purchased online **LINK**. We will take the glider and attach a motor onto the glider in order for the glider to fly longer. In order to record the flight data of the motor we will hollow out the cockpit of the glider in order to have room to fit the pico and the sensors. The motor we are using is a small drone motor that we will attach to the top fin of the plane. We are going to replace the foam cockpit cover with a 3D printed one so we can pop it on and off easily. We will also include an easily accsesible switch so the glider motor is not always running. We will also include a place where you can plug the glider into a computer to access the flight data.
+Our final solution is most likely going to be a glider purchased online **LINK**. We will take the glider and attach a motor onto the glider in order for the glider to fly longer. In order to record the flight data of the motor we will hollow out the cockpit of the glider in order to have room to fit the pico and the sensors. The motor we are using is a small drone motor that we will attach to the top fin of the plane. We are going to replace the foam cockpit cover with a 3D-printed one so we can pop it on and off easily. We will also include an easily accsesible switch so the glider motor is not always running. We will also include a place where you can plug the glider into a computer to access the flight data.
 
 &nbsp;
 
@@ -45,7 +45,7 @@ Our final solution is most likely going to be a glider purchased online **LINK**
 
 ![IMG_2948-ezgif com-video-to-gif-converter](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/f8ebccad-ba2f-472b-8973-e9c3bd4d6cf7)
 
-This launch was one of our first and it didn't go great but it was good for a first attempt. The motor did turn on although since we were throwing it with the wind it blew it down. The inside was fine and all the mechanics worked. What we learned is that throwing it with the wind doesn't help flight time and that throwing it higher would be ideal so it doesn't nose dive. 
+This launch was one of our first and it didn't go great but it was good for a first attempt. The motor did turn on although since we were throwing it with the wind it blew it down. The inside was fine and all the mechanics worked. What we learned is that throwing it with the wind doesn't help flight time and that throwing it higher would be ideal so it doesn't nose dive. Another reason it nose-dived was because the telo battery was too far forward and that weight led it to be front-heavy instead of balanced. 
 
 ![IMG_2951-ezgif com-cut](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/22587284-9358-4d3c-83fc-9d9515b92a9f)
 
