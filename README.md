@@ -45,7 +45,11 @@ Our final solution is most likely going to be a glider purchased online **LINK**
 
 ![IMG_2948-ezgif com-video-to-gif-converter](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/f8ebccad-ba2f-472b-8973-e9c3bd4d6cf7)
 
+This launch was one of our first and it didn't go great but it was good for a first attempt. The motor did turn on although since we were throwing it with the wind it blew it down. The inside was fine and all the mechanics worked. What we learned is that throwing it with the wind doesn't help flight time and that throwing it higher would be ideal so it doesn't nose dive. 
+
 ![IMG_2951-ezgif com-cut](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/22587284-9358-4d3c-83fc-9d9515b92a9f)
+
+This second launch was much better than the previous launch above. This time we threw it into the wind and it lifted the plane much more instead of it getting pushed down. The motor turned on and it was in the air for more time than it seems like in the video and when the motor switched off it stopped (which is good to see the motor propelling it). It did fall hard but the inner mechanisms were fine and it was an overall informative test to see how it flies and how long we need to run the motor for. 
 
 ## Onshape
 
@@ -70,7 +74,7 @@ A design change that we made early on was the propeller guard. It was very flims
 
 
 
-![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/3451002f-1d3e-43cb-82c7-c140e1837556)                 ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/1d8b665f-07a1-4346-b59d-5a14b3e0b1f9)
+![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/3451002f-1d3e-43cb-82c7-c140e1837556)            ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/1d8b665f-07a1-4346-b59d-5a14b3e0b1f9)
 
 
 
