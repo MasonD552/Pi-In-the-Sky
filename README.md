@@ -92,7 +92,10 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 - micro motor + propeller
 - MPU 6050
 - battery
-- 3D printing 
+- 3D printing
+- toothpicks
+- hot glue
+- rubber bands
 
 ## Python
 
