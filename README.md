@@ -12,6 +12,8 @@ Mason Divers Jinho Park
 * [Code Blocks](#Code_Blocks)
 * [Weekly Milestone Document](#Weekly_Milestone_Document)
 * [Onshape](#Onshape)
+* [Bill of Materials](#Bill_Of_Materials)
+* [Wiring](#Wiring)
   
 &nbsp;
 
@@ -89,7 +91,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 &nbsp;
 
-## Bill of Materials
+## Bill_of_Materials
 - 2 foam planes (1 prototype)
 - Pico
 - Altimeter
