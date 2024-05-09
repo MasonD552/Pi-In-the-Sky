@@ -8,6 +8,7 @@ Mason Divers Jinho Park
 
 ## Table of Contents
 * [Planning](#Planning)
+* [Riskn Mitigation](#Risk_Mitigation)
   
 &nbsp;
 
