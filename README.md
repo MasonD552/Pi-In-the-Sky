@@ -95,9 +95,9 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 - 2 foam planes (1 prototype) - $11.99
 - Pico - $6
 - Altimeter - $8.96 per MPL3115A2 in a pack of 10
-- micro motor + propeller - 
-- MPU 6050
-- battery
+- micro motor + propeller - [Link](http://www.crazepony.com/products/tiny-whoop-motors.html)
+- MPU 6050 $11.66 per MPU6050 in a pack of 10
+- battery DJI Tello battery $19-20
 - 3D printing
 - toothpicks
 - hot glue
