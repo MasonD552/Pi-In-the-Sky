@@ -92,10 +92,10 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 &nbsp;
 
 ## Bill_of_Materials
-- 2 foam planes (1 prototype)
-- Pico
-- Altimeter
-- micro motor + propeller
+- 2 foam planes (1 prototype) - $11.99
+- Pico - $6
+- Altimeter - $8.96 per MPL3115A2 in a pack of 10
+- micro motor + propeller - 
 - MPU 6050
 - battery
 - 3D printing
