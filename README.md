@@ -82,8 +82,8 @@ A design change that we made early on was the propeller guard. It was very flims
 
 
 
-![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/3451002f-1d3e-43cb-82c7-c140e1837556)            ![Capture](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/1d8b665f-07a1-4346-b59d-5a14b3e0b1f9)
 
+<img src="https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/3451002f-1d3e-43cb-82c7-c140e1837556"  width="50%" height="20%"> <img src="https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/1d8b665f-07a1-4346-b59d-5a14b3e0b1f9"  width="50%" height="20%"> 
 
 
 
