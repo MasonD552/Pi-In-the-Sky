@@ -107,6 +107,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 
+
 ## Wiring
 
 ![WiringDiagramPiSky](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Untitled%20Sketch%202_bb.png)
