@@ -1,110 +1,98 @@
-# type: ignore
+#type: ignore
+# Import necessary libraries
 import board
 import busio
-#import adafruit_mpu6050
 import digitalio
 import time
-import adafruit_mpl3115a2  # Import the MPL3115A2 library
+import adafruit_mpl3115a2
 import storage
 import os
+import adafruit_logging as logging
 
-## Initialize I2C communication with the MPU6050 sensor
-#sda_pinmpu = board.GP4  # Replace with your SDA pin
-#scl_pinmpu = board.GP5  # Replace with your SCL pin
-#i2cmpu = busio.I2C(scl_pinmpu, sda_pinmpu)
-#mpu = adafruit_mpu6050.MPU6050(i2cmpu)  # Replace with your MPU6050 address
-# Initialize I2C communication with the MPL3115A2 sensor
-sda_pinmpl = board.GP14  # Replace with your SDA pin
-scl_pinmpl = board.GP15  # Replace with your SCL pin
-i2cmpl = busio.I2C(scl_pinmpl, sda_pinmpl)
-# Initialize the MPL3115A2 altimeter
-mpl3115a2 = adafruit_mpl3115a2.MPL3115A2(i2cmpl)
+# Set up logging
+logger = logging.getLogger('flight')
+logger.setLevel(logging.INFO)
 
-# Initialize the button for recording
-databutton_pin = board.GP11  # Replace with the actual GPIO pin you are using
-databutton = digitalio.DigitalInOut(databutton_pin)
-databutton.direction = digitalio.Direction.INPUT
-databutton.pull = digitalio.Pull.UP
+# Define FlightDataRecorder class
+class FlightDataRecorder:
+    def __init__(self):
+        # Initialize pins and sensors
+        self.databutton_pin = board.GP11
+        self.databutton = self.setup_digital_io_button(self.databutton_pin)
+        self.led_pin = board.LED
+        self.led = self.setup_digital_io_output(self.led_pin)
+        self.motor_pin = board.GP13
+        self.motor = self.setup_digital_io_output(self.motor_pin)
+        self.i2cmpl = self.setup_i2c(board.GP14, board.GP15)
+        self.mpl3115a2 = adafruit_mpl3115a2.MPL3115A2(self.i2cmpl)
+        self.initial_altitude = self.mpl3115a2.altitude
+        self.start_time = time.monotonic()
+        self.previous_time = time.monotonic()
+        self.recording = False
+        self.motor_start_time = None
+        self.file_num = self.get_file_num()
 
-# Initialize the Onboard Led and Led connected to GP16
-led_pin = board.LED  # LED PIN = ONBOARD
-led = digitalio.DigitalInOut(led_pin)
-led.direction = digitalio.Direction.OUTPUT
+    # Function to set up a digital input pin
+    def setup_digital_io_button(self, pin):
+        io = digitalio.DigitalInOut(pin)
+        io.direction = digitalio.Direction.INPUT
+        io.pull = digitalio.Pull.UP
+        return io
 
-led_2_pin = board.GP16  # LED PIN = GP16
-led_2 = digitalio.DigitalInOut(led_2_pin)
-led_2.direction = digitalio.Direction.OUTPUT
+    # Function to set up a digital output pin
+    def setup_digital_io_output(self, pin):
+        io = digitalio.DigitalInOut(pin)
+        io.direction = digitalio.Direction.OUTPUT
+        return io
 
-# Initialize the motor
-motor_pin = board.GP13 # MOTOR PIN = GP13
-motor = digitalio.DigitalInOut(motor_pin)
-motor.direction = digitalio.Direction.OUTPUT
+    # Function to set up I2C
+    def setup_i2c(self, sda_pin, scl_pin):
+        return busio.I2C(scl_pin, sda_pin)
 
-led.value = True
-time.sleep(0.1)
-led.value = False
-time.sleep(0.1)
-time.sleep(1.5) #Delay to help initialize values
+    # Function to get the file number for the data log
+    def get_file_num(self):
+        files = os.listdir("FlightData")
+        file_num = sum(file.startswith("flightdata-") for file in files)
+        return file_num
 
-# Store the initial altitude and time
-initial_altitude = mpl3115a2.altitude
-start_time = time.monotonic()
-print(start_time)
-# Flag to indicate recording status
-recording = False
-# Create or open the data.csv file in append mode
-motor_start_time = None  # Variable to store the time when the motor starts
+    # Function to record flight data
+    def record_flight_data(self):
+        with open(f"FlightData/flightdata-{self.file_num}.csv", "a") as datalog:
+            while True:
+                # Calculate current altitude in feet
+                current_altitude = self.mpl3115a2.altitude * 3.28084
+                current_time = time.monotonic()
+                delta_time = current_time - self.previous_time
+                time_of_flight = current_time - self.start_time
+                self.previous_time = current_time
+    
+                # Check if the button is pressed to start/stop recording
+                if self.databutton.value and not self.recording:
+                    self.recording = True
+                    # Check if the file is empty before writing the header
+                    if datalog.tell() == 0:
+                        datalog.write("Time(s), Altitude(ft)\n")
+                    self.motor.value = True
+                    self.motor_start_time = time.monotonic()
+                elif not self.databutton.value and self.recording:
+                    self.recording = False
+                    self.motor.value = False
+    
+                # Check if the motor should be turned off
+                if self.motor_start_time and time.monotonic() - self.motor_start_time >= 1.5:
+                    self.motor.value = False
+                    self.motor_start_time = None
+    
+                # Record data if in recording mode
+                if self.recording:
+                    data_string = f"{current_time:.3f}, {current_altitude:.3f}\n"
+                    datalog.write(data_string)
+    
+                # Flush the data log and sleep for a short time
+                datalog.flush()
+                time.sleep(0.1)
 
-# Previous time for speed calculation
-previous_time = time.monotonic()
-# find which file number we're on
-files = os.listdir("FlightData")
-file_num = 0
-for file in files:
-    if file.startswith("flightdata-"):
-        file_num += 1
-
-with open(f"FlightData/flightdata-{file_num}.csv", "a") as datalog:
-    # Main loop
-    while True:
-        ## Read acceleration values
-        #acceleration = mpu.acceleration
-        #x_acceleration, y_acceleration, z_acceleration = acceleration
-        
-        # Read altitude from MPL3115A2 altimeter in meters
-        current_altitude_meters = mpl3115a2.altitude
-        # Convert altitude to feet
-        current_altitude = current_altitude_meters * 3.28084
-
-        # Calculate time of flight
-        current_time = time.monotonic()
-        delta_time = current_time - previous_time  # Time difference between readings
-        print(current_time)
-        time_of_flight = current_time - start_time
-        # Update previous time
-        previous_time = current_time
-        # Check if the button is pressed to start/stop recording
-        if databutton.value == True and not recording:
-            # Button pressed, start recording
-            recording = True
-            datalog.write("Time(s), Altitude(m)\n")
-            motor.value = True
-            motor_start_time = time.monotonic()  # Record the time when the motor starts
-        elif not databutton.value == True and recording:
-            # Button released, stop recording
-            recording = False
-            motor.value = False
-
-        # Turn off the motor after 10 seconds
-        if motor_start_time is not None and time.monotonic() - motor_start_time >= 1.5:
-            motor.value = False
-            motor_start_time = None  # Reset the motor start time
-
-        # Record data if in recording mode
-        if recording:
-            data_string = f"{current_time:.3f}, {current_altitude:.3f}\n"
-            datalog.write(data_string)
-        # Flush the file to ensure data is saved
-        datalog.flush()
-        # Add a delay to control the loop frequency
-        time.sleep(0.1)
+# Main program
+if __name__ == "__main__":
+    recorder = FlightDataRecorder()
+    recorder.record_flight_data()
