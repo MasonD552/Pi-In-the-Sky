@@ -10,11 +10,12 @@ Mason Divers Jinho Park
 * [Planning](#Planning)
 * [Risk Mitigation](#Risk_Mitigation)
 * [Code Blocks](#Code_Blocks)
-* [Weekly Milestone Document](#Weekly_Milestone_Document)
+* [Weekly Milestone Document](#Weekly_Milestone_Document
+* [Launches](#Launches)
 * [Onshape](#Onshape)
 * [Bill of Materials](#Bill_Of_Materials)
 * [Wiring](#Wiring)
-* [Launches](#Launches)
+
   
 &nbsp;
 
