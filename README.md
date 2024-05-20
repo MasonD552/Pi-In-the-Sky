@@ -10,7 +10,7 @@ Mason Divers Jinho Park
 * [Planning](#Planning)
 * [Risk Mitigation](#Risk_Mitigation)
 * [Code Blocks](#Code_Blocks)
-* [Weekly Milestone Document](#Weekly_Milestone_Document_https://docs.google.com/document/d/18BsiWJBjAEjfBCMQsnZhUZLcynrcRc9x9TwaMXnt_gY/edit?usp=sharing)
+* [Weekly_Milestone_Document](#Weekly_Milestone_Document_https://docs.google.com/document/d/18BsiWJBjAEjfBCMQsnZhUZLcynrcRc9x9TwaMXnt_gY/edit?usp=sharing)
 * [Launches](#Launches)
 * [Onshape](#Onshape)
 * [Bill of Materials](#Bill_Of_Materials)
