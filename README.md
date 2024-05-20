@@ -14,6 +14,7 @@ Mason Divers Jinho Park
 * [Onshape](#Onshape)
 * [Bill of Materials](#Bill_Of_Materials)
 * [Wiring](#Wiring)
+* [Launches](#Launches)
   
 &nbsp;
 
@@ -50,6 +51,8 @@ Our final solution is most likely going to be a glider purchased online **LINK**
 &nbsp;
 
 ## [Weekly Milestone Document](https://docs.google.com/document/d/18BsiWJBjAEjfBCMQsnZhUZLcynrcRc9x9TwaMXnt_gY/edit?usp=sharing)
+
+## Launches 
 
 ![IMG_2948-ezgif com-video-to-gif-converter](https://github.com/MasonD552/Pi-In-the-Sky/assets/113122312/f8ebccad-ba2f-472b-8973-e9c3bd4d6cf7)
 
