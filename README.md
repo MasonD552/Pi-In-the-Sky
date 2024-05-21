@@ -64,8 +64,7 @@ This launch was one of our first and it didn't go great but it was good for a fi
 
 This second launch was much better than the previous launch above. This time we threw it into the wind and it lifted the plane much more instead of it getting pushed down. The motor turned on and it was in the air for more time than it seems like in the video and when the motor switched off it stopped (which is good to see the motor propelling it). It did fall hard but the inner mechanisms were fine and it was an overall informative test to see how it flies and how long we need to run the motor for. 
 
-![Video1lol](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_2989.MOV)
-
+![MOV2989](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_2989-ezgif.com-video-to-gif-converter.gif)
 ## Onshape
 
 ### Description
