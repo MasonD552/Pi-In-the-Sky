@@ -126,7 +126,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 ## Python
 
-[Link to Python Code](https://github.com/MasonD552/Pi-In-the-Sky/blob/a1530924d672ee66efe3be84d32eaaa66cfd5e50/raspberry-pi/Pi_In_the_sky.py)
+[Link to Python Code](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/raspberry-pi/Pi_In_the_sky.py)
 
 
 ## Wiring
