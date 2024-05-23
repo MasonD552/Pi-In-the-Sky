@@ -137,3 +137,4 @@ Pt 1.
 Pt 2. We changed the wiring to account for the weight of the pane making it lighter. We removed the MPU 6050. As well as changing the wiring for the Mosfet. 
 
 ## Graph_and_Data
+[Link to Spreadsheet Document of Data from throws on 5/17/24](https://docs.google.com/spreadsheets/d/1uB8QebK5OYZqLGza91r29Eb5k3zE_UhoGJ2RRBXb9n0/edit?usp=sharing)
