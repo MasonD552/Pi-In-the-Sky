@@ -4,7 +4,7 @@ import board
 import busio
 import digitalio
 import time
-import adafruit_mpl3115a2
+import mpl3115a2_highspeed as adafruit_mpl3115a2
 import storage
 import os
 import adafruit_logging as logging
@@ -31,13 +31,18 @@ class FlightDataRecorder:
         self.recording = False
         self.motor_start_time = None
         self.file_num = self.get_file_num()
-
+        self.launch_altitude = None
     # Function to set up a digital input pin
     def setup_digital_io_button(self, pin):
         io = digitalio.DigitalInOut(pin)
         io.direction = digitalio.Direction.INPUT
         io.pull = digitalio.Pull.UP
+        io.switch_to_input(pull=digitalio.Pull.UP)
         return io
+    
+    def button_pressed(self, pin):
+        self.launch_altitude = self.mpl3115a2.altitude
+        self.recording = True
 
     # Function to set up a digital output pin
     def setup_digital_io_output(self, pin):
@@ -55,20 +60,20 @@ class FlightDataRecorder:
         file_num = sum(file.startswith("flightdata-") for file in files)
         return file_num
 
-    # Function to record flight data
+  # Function to record flight data
     def record_flight_data(self):
         with open(f"FlightData/flightdata-{self.file_num}.csv", "a") as datalog:
             while True:
-                # Calculate current altitude in feet
-                current_altitude = self.mpl3115a2.altitude * 3.28084
                 current_time = time.monotonic()
                 delta_time = current_time - self.previous_time
                 time_of_flight = current_time - self.start_time
                 self.previous_time = current_time
-    
+
                 # Check if the button is pressed to start/stop recording
                 if self.databutton.value and not self.recording:
                     self.recording = True
+                    # Set the launch altitude
+                    self.launch_altitude = self.mpl3115a2.altitude
                     # Check if the file is empty before writing the header
                     if datalog.tell() == 0:
                         datalog.write("Time(s), Altitude(ft)\n")
@@ -77,17 +82,19 @@ class FlightDataRecorder:
                 elif not self.databutton.value and self.recording:
                     self.recording = False
                     self.motor.value = False
-    
+
                 # Check if the motor should be turned off
                 if self.motor_start_time and time.monotonic() - self.motor_start_time >= 1.5:
                     self.motor.value = False
                     self.motor_start_time = None
-    
+
                 # Record data if in recording mode
                 if self.recording:
-                    data_string = f"{current_time:.3f}, {current_altitude:.3f}\n"
+                    # Calculate the altitude relative to the launch altitude
+                    relative_altitude = self.mpl3115a2.altitude - self.launch_altitude
+                    data_string = f"{current_time:.3f}, {relative_altitude:.3f}\n"
                     datalog.write(data_string)
-    
+
                 # Flush the data log and sleep for a short time
                 datalog.flush()
                 time.sleep(0.1)
