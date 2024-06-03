@@ -79,7 +79,13 @@ This second launch was much better than the previous launch above. This time we 
 
 ![MOV29937](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_2997-ezgif.com-video-to-gif-converter.gif)
 
+![IMG3011](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_3011-ezgif.com-video-to-gif-converter.gif)
 
+![IMG3012](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_3012-ezgif.com-video-to-gif-converter.gif)
+
+![IMG4390](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_4390-ezgif.com-video-to-gif-converter.gif)
+
+![IMG4391](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_4391-ezgif.com-video-to-gif-converter.gif)
 
 ## Onshape
 
