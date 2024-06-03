@@ -148,3 +148,7 @@ Pt 2. We changed the wiring to account for the weight of the pane making it ligh
 [Link to Spreadsheet Document of Data from throws on 5/17/24](https://docs.google.com/spreadsheets/d/1uB8QebK5OYZqLGza91r29Eb5k3zE_UhoGJ2RRBXb9n0/edit?usp=sharing)
 
 This data is important because it shows the altitude both relative and the sea level in feet. First, the data shows the change in altitude from  the initial altitude read. So if the initial altitude is 200 ft above sea level the relative data will show how much it increases or decreases. This is important because it accurately shows the change in the data. 
+
+[Link to Spreadsheet Document of Data from throws on 5/31/24](https://docs.google.com/spreadsheets/d/1ASbpyC87Iu_ZH8x6YXO8Ot0etcPhHYyarAS40-dp2ug/edit?usp=sharing)
+
+This data is important as it shows the relative altitude for the data collected on the blue plane. We installed a different iteration of the MPL library to collect data at a faster pace resulting in more data. As you can see there is a difference between the first set of data and the second. The first set of data has fewer lines of data but results in smoother lines while the second lines of data result in more spikey lines of data. 
