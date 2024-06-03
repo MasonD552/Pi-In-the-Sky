@@ -79,7 +79,7 @@ This second launch was much better than the previous launch above. This time we 
 
 ![MOV29937](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/videos/IMG_2997-ezgif.com-video-to-gif-converter.gif)
 
-file:///home/chronos/u-1e1bbfef1b6e89296de1a531d0c55753e5e798df/MyFiles/Downloads/IMG_4392.MOV 
+
 
 ## Onshape
 
