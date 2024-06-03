@@ -141,7 +141,7 @@ This project was a test of my and Jinho's skills. We had to be able to battle Mr
 
 ![WiringDiagramPiSky](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Untitled%20Sketch%202_bb.png)
 Pt 1. 
-![WiringDiagramPiSkypt2](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/Untitled%20Sketch%202_bb.png)
+![WiringDiagramPiSkypt2](https://github.com/MasonD552/Pi-In-the-Sky/blob/main/images/pi%20in%20the%20sky%20wiring_pt2.jpg)
 Pt 2. We changed the wiring to account for the weight of the pane making it lighter. We removed the MPU 6050. As well as changing the wiring for the Mosfet. 
 
 ## Graph_and_Data
